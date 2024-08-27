@@ -1,0 +1,42 @@
+.game {
+  position: relative;
+  height: 100vh;
+  background: url("../assets/img/bg1.png") no-repeat center center/cover;
+  overflow: hidden;
+}
+
+.boat {
+  position: absolute;
+  bottom: 0;
+  width: 13%; /* Adjust width to make it smaller */
+  /* height: 30px; /* Adjust height to make it smaller */
+}
+
+/* Resizing the falling item images */
+.falling-item {
+  position: absolute;
+  width: 10%; /* Adjust width to make it smaller */
+  /* height: 10px; /* Adjust height to make it smaller */
+  /* transition: top 0.1s linear;*/
+}
+
+.boat img {
+  width: 100%;
+  height: auto;
+}
+
+.falling-item img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+.score,
+.time {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: white;
+}
+*/

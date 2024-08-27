@@ -1,0 +1,85 @@
+.game-over__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.game-over__card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 480px;
+}
+
+.game-over__header {
+  background-color: #3583dc;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  padding: 1.5rem;
+}
+
+.game-over__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.game-over__body {
+  padding: 2rem;
+}
+
+.game-over__score {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+.game-over__score-value {
+  color: #3583dc;
+}
+
+.game-over__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.game-over__label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.game-over__input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.game-over__error {
+  margin-top: 1rem;
+}
+
+.game-over__submit-btn {
+  background-color: #3583dc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.game-over__submit-btn:hover {
+  background-color: #3583dc;
+}
+
+.game-over__content {
+  text-align: center;
+}
