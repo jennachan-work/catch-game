@@ -52,7 +52,7 @@ The project is divided into two main parts:
 
 ### General Information
 
-- Base URL: `http://localhost:5001/api/v1`
+- Base URL: `{API_BASE_URL}/api/v1`
 - Authentication: None
 
 ### Endpoints
